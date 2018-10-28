@@ -5,7 +5,7 @@ $authKey = "";
 //Multiple mobiles numbers separated by comma
 $mobileNumber = $_SESSION['phone'];
 //Sender ID,While using route4 sender id should be 6 characters long.
-$senderId = "Sahyog";
+$senderId = "BookStore";
 //Your message to send, Add URL encoding here.
 $rndno=rand(1000, 9999);
 $message = urlencode("otp number.".$rndno);
